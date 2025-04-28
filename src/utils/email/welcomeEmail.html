@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome to Our Affiliate Program</title>
+</head>
+<body style="font-family: Arial, sans-serif; padding: 20px; line-height: 1.6; color: #333; background-color: #f9f9f9;">
+  
+  <div style="max-width: 600px; background: #fff; padding: 20px; margin: auto; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);">
+    
+    <h2 style="color: #007BFF;">Hi {{first_name}},</h2>
+
+    <p style="font-size: 16px;">We are happy to have you as part of our <strong>{{campaign_name}}</strong> campaign.</p>
+
+    <p style="font-size: 16px;">You can begin earning commissions by sharing your unique link:</p>
+    <p style="font-size: 18px; font-weight: bold; color: #007BFF; word-break: break-all;">
+      <a href="{{link}}" style="color: #007BFF; text-decoration: none;">{{link}}</a>
+    </p>
+
+    <p style="font-size: 16px;">
+      Each time someone successfully completes a purchase via your affiliate link above, 
+      a <strong>commission</strong> will be generated for you.
+    </p>
+
+    <h3 style="color: #444; border-bottom: 2px solid #007BFF; padding-bottom: 5px;">Your Login Details:</h3>
+    <p>To access your account, go to: 
+      <a href="{{client_portal_url}}" style="color: #007BFF; text-decoration: none;">{{client_portal_url}}</a>
+    </p>
+    <p><strong>Email ID:</strong> {{email}}</p>
+    <p><strong>temporary password:</strong> {{tempPassword}}</p>
+
+    <p style="margin-top: 20px; font-size: 16px;">Regards,</p>
+    <p style="font-size: 18px; font-weight: bold; color: #007BFF;">{{location_name}} Team</p>
+
+  </div>
+</body>
+</html>
